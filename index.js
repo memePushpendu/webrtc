@@ -10,8 +10,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Session middleware
 
 // Create an instance of Pusher
-var Pusher = require('pusher');
-
 var pusher = new Pusher({
     appId: '599108',
     key: '246a49cf5a78dc6be23b',
