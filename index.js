@@ -44,6 +44,6 @@ app.post("/pusher/auth", (req, res) => {
 });
 
 //listen on the app
-app.listen(3000, () => {
-    return console.log('Server is up on 3000')
+app.listen(5050, () => {
+    return console.log('Server is up on 5050')
 });
